@@ -1,0 +1,10 @@
+img{
+  position:fixed;
+  transition: 2s;
+}
+
+body{
+  height: 100vh;
+  background-image: url('https://imgur.com/jnCXdAx.jpg');
+  cursor: none;
+}

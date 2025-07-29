@@ -1,0 +1,79 @@
+body {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 0;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.imperio, .rebeldes, .soldados, .apoyo, .naves, .droides {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+  flex-grow: 1;
+  height: 98%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.imperio {
+  background: red;
+  flex: 1;
+}
+
+.rebeldes {
+  background: blue;
+  flex: 2;
+}
+
+.soldados {
+  background: green;
+  flex: 3;
+  border: 2px dashed white;
+  letter-spacing: 5px;
+}
+
+.apoyo {
+  background: yellow;
+  flex: 4;
+  color: black;
+}
+
+.naves {
+  background: pink;
+  flex: 5;
+  text-transform: uppercase;
+}
+
+.droides {
+  background: orange;
+  flex: 6;
+}
+
+#luke {
+  font-style: italic;
+}
+
+#darth {
+  font-size: 35px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #eaf5ce;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.sombrero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.copa, .base {
+  background: #8c5e43;
+}
+
+.copa {
+  width: 100px;
+  height: 120px;
+  border-bottom: 5px solid black;
+}
+
+.base {
+  width: 200px;
+  height: 30px;
+}
+
+.cuerpo {
+  display: flex;
+  align-items: center;
+  margin-top: -22px;
+  z-index: 0;
+}
+
+.pan {
+  background: #e3d794;
+  width: 59px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.panizq {
+  border-radius: 100px 0 0 100px;
+  justify-content: flex-end;
+}
+
+.pander {
+  border-radius: 0 100px 100px 0;
+  justify-content: flex-start;
+}
+
+.sombra {
+  background: #c7b989;
+  width: 25px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.sombraizq {
+  border-radius: 100px 0 0 100px;
+}
+
+.sombrader {
+  border-radius: 0 50px 50px 0;
+}
+
+.salchicha {
+  background: #db9d91;
+  width: 75px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 100px;
+}
+
+.ojos {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.ojoizq, .ojoder {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+}
+
+.boca {
+  width: 25px;
+  height: 5px;
+  background: white;
+  border: 1.5px solid black;
+  border-radius: 0 0 50px 50px;
+}
+
+.ketchup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.linea {
+  display: flex;
+}
+
+.arriba, .abajo {
+  width: 12px;
+  height: 5px;
+}
+
+.arriba {
+  border-top: 2px solid red;
+  border-radius: 100%;
+}
+
+.abajo {
+  border-bottom: 2px solid red;
+  border-radius: 0 0 100px 100px;
+}
