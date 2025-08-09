@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Actividad X</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="post">
+    <img src="https://i.pinimg.com/564x/52/9a/de/529adee09e77ee57e7b9325148a7010f.jpg" alt="Frutillita">
+    <p>¡Mi primer post en Reactbook!</p>
+
+    <div class="reactions">
+      <button class="reaction-btn" id="likeBtn">💗<span id="like">0</span></button>
+      <button class="reaction-btn" id="graciosoBtn">🤣<span id="gracioso">0</span></button>
+      <button class="reaction-btn" id="sorprendidoBtn">😮<span id="sorprendido">0</span></button>
+    </div>
+
+    <div class="comment-section">
+      <input type="text" id="commentInput" maxlength="40" placeholder="Comentá...">
+      <button id="commentBtn">Comentar</button>
+      <div id="errorMsg" class="error"></div>
+      <div class="comments-list" id="commentsList"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
